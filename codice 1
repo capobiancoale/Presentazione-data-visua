@@ -1,0 +1,52 @@
+output file: Report_Data_Visua.knit.md
+
+pandoc 
+  to: revealjs
+  output-file: Report_Data_Visua.html
+  standalone: true
+  wrap: none
+  default-image-extension: png
+  html-math-method:
+    method: mathjax
+    url: >-
+      https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?config=TeX-AMS_HTML-full
+  slide-level: 2
+  variables: {}
+  
+metadata
+  link-citations: true
+  width: 1050
+  height: 700
+  margin: 0.1
+  center: false
+  navigationMode: linear
+  controlsLayout: edges
+  controlsTutorial: false
+  hash: true
+  history: true
+  hashOneBasedIndex: false
+  fragmentInURL: false
+  transition: fade
+  backgroundTransition: fade
+  pdfSeparateFragments: false
+  lang: en
+  auto-stretch: true
+  title: Water Insecurity in the United States
+  subtitle: County-Level Analysis · ACS 5-Year Estimates
+  author: Francesco Pirovano · Elena La Chiusa · Alessio Capobianco
+  date: today
+  theme: dark
+  slideNumber: true
+  code-summary: Show code
+  smaller: true
+  scrollable: false
+  
+Error running Lua:
+YAML parse exception at line 5, column 1,
+while scanning an alias:
+did not find expected alphabetic or numeric character
+stack traceback:
+        /Applications/quarto/share/pandoc/datadir/readqmd.lua:170: in function 'readqmd.readqmd'
+        /Applications/quarto/share/filters/qmd-reader.lua:13: in function 'Reader'
+WARN: Error encountered when rendering files
+(base) alessiocapobianco@192 Desktop % 
