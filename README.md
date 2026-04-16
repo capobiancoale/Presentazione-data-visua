@@ -1,5 +1,7 @@
 # Water Insecurity in the United States: County-Level Analysis
 
+This is a Quarto presentation made with prosition. 
+
 ## Overview
 
 This is an interactive presentation analyzing water insecurity across the United States at the county level using American Community Survey (ACS) 5-Year Estimates data. The analysis focuses on the prevalence of households lacking complete plumbing facilities as a key indicator of water infrastructure deprivation.
